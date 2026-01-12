@@ -1,2 +1,0 @@
-# MTC.MOHAMMED
-class activity
