@@ -1,12 +1,12 @@
 @startuml
 class Student {
-  - studentId: 2102064
-  - name: mohammed
+  - studentId: string
+  - name: string
 }
 
 class Course {
-  - courseId: software
-  - title:class
+  - courseId: string
+  - title: string
 }
 
 Student "1..*" -- "0..*" Course : registers
