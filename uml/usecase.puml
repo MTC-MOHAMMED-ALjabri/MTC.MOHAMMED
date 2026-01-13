@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+actor "Student" as student
+
+rectangle "Course System" {
+  usecase "Register Course" as UC1
+  usecase "Check Prerequisite" as UC2
+}
+
+student --> UC1
+UC1 ..> UC2 : <<include>>
+@enduml
+
