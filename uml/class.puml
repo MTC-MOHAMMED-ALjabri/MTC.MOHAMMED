@@ -1,7 +1,7 @@
 @startuml
 class Student {
   - studentId: string
-  - name: string
+  - name: string 
 }
 
 class Course {
