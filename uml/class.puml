@@ -1,0 +1,13 @@
+@startuml
+class Student {
+  - studentId: 2102064
+  - name: mohammed
+}
+
+class Course {
+  - courseId: software
+  - title:class
+}
+
+Student "1..*" -- "0..*" Course : registers
+@enduml
