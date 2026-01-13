@@ -3,7 +3,7 @@
 ## Syntax Validation
 - PlantUML editor reports no syntax errors.
 - Diagrams render correctly as PNG.
-
+  
 ## Naming Consistency
 - The actor "Student" appears in both diagrams.
 - Use cases match class responsibilities.
